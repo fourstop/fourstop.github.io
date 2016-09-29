@@ -5290,7 +5290,7 @@ header, section {
 .main-1 {
 	height: 990px;
 	height: 100vh;
-	background: #58595b;
+	background: #414042;
 }
 
 .main-1-item {
@@ -5301,6 +5301,7 @@ header, section {
 
 .main-1-item__bg {
 	background-size: cover;
+	vertical-align: center;
 }
 
 .main-1-item__inner {
@@ -5308,11 +5309,12 @@ header, section {
 }
 
 .main-1-item__title {
-	font-size: 72px;
+	font-size: 90px;
 	font-size: 7.6vmin;
 	text-transform: uppercase;
 	margin-top: 5%;
 	color: #fff;
+	vertical-align: center;
 }
 
 .main-1-item__title_thin {
@@ -6003,7 +6005,7 @@ header, section {
 .features-1 .features-item__text {
 	padding-top: 15px;
 	padding-bottom: 12px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #555;
 }
