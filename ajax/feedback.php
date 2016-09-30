@@ -1,12 +1,5 @@
 <?php
-/**
- * @version v1.1.0
- * @build 9-16-2016
- * @package nowadays - One/Multi Page Multipurpose Creative HTML5 Template
- * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
- * @license SEE LICENSE IN http://themeforest.net/licenses
- * @website http://likeaprothemes.com
- */
+
 
 if( 'POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['formName']) && isset($_POST['formEmail']) && isset($_POST['formMessage']) ) {
 
@@ -20,7 +13,7 @@ if( 'POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['formName']) && isset($
 		return;
 	}
 
-	$to = 'onebelarussianguy@gmail.com';
+	$to = 'chantel@humanpaste.com';
 	$subject = ($subj) ? $subj : 'Message from ' . $_SERVER['HTTP_HOST'];
 	$message = $mess . "\r\n" . $name;
 	$headers = 'From: <' . $mail . '>' . "\r\n";
