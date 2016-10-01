@@ -6554,7 +6554,6 @@ header, section {
 }
 
 .s-get-it-2-uppercase .s-get-it-2__title {
-	text-transform: uppercase;
 	font-size: 24px;
 	letter-spacing: 1px;
 	font-weight: 400;
@@ -8100,7 +8099,7 @@ header, section {
 }
 
 .footer-contacts__link:hover {
-	color: #fff;
+	color: #d42227;
 }
 
 .footer-social__item {
@@ -8110,7 +8109,7 @@ header, section {
 
 .footer-social__item:before {
 	font-size: 40px;
-	color: #4e5b5b;
+	color: #58595b;
 	-webkit-transition: 0.3s color;
 	transition: 0.3s color;
 }
