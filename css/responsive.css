@@ -353,7 +353,7 @@
 	}
 
 	#primary-menu-trigger {
-		opacity: 0;
+		opacity: 1;
 		pointer-events: auto;
 		top: 25px;
 		margin-top: 0;
