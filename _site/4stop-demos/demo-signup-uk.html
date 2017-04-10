@@ -133,26 +133,139 @@
 		<!-- Content Sign Ups UK Forms 
 		============================================= -->
 		<section id="content" style="background-color:#f2f2f2;">
-				<div class="container topmargin-lg bottommargin-lg">
+				<div class="container topmargin-lg bottommargin">
 					<div class="row">
 
-							<div class="col-md-9" style="background-color:#FFF;">
-								<div>
-								<p style="float: left; clear: left"><img src="../images/demo/demo-signup-icon-uk.png" width="110px;" style="padding-right:20px; padding-top:20px; padding-left:20px;"></p><p style="font-size:26px; padding-top:35px; font-weight: 300; color:#bf2a2a;"><b>Create an account.</b> It takes less than a minute.</p>
+							<div class="col-md-8 bottommargin" style="background-color:#FFF;">
+								<div style="padding-left:20px;">
+								<p style="float: left; clear: left"><img src="../images/demo/demo-signup-icon-uk.png" width="90px;" style="padding-right:20px; padding-top:20px;"></p><p style="font-size:26px; padding-top:35px; font-weight: 300; color:#bf2a2a;"><b>Create an account.</b> It takes less than a minute.</p>
 								</div>
 								
-								<div style="background-color:#FFF;">
-								<h4 style="color:#636466; padding-top:30px; padding-left:20px;"><b>EMAIL</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Will be used to sign into your account.</span></h4>
+								<div class="bottommargin" style="background-color:#FFF; padding-left:20px;">
+									<form>
+										<h4 style="color:#636466; padding-top:30px;"><b>EMAIL</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Will be used to sign into your account.<br>
+										 <input type="text" name="email" placeholder="Enter Email" style="color:#939598; padding-top:5px; padding-bottom:5px; width:92%; font-size:16px; text-indent:5px;"></span></h4>
+
+										
+										<h4 style="color:#636466; padding-top:10px;"><b>PASSWORD</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Must be 8 characters long and contain at least 1 number and 1 uppercase.<br>
+										<input type="text" name="password" placeholder="Create Password" style="color:#939598; padding-top:5px; padding-bottom:5px; width:45%; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+										<input type="text" name="confirmpassword" placeholder="Confirm Password" style="color:#939598; padding-top:5px; padding-bottom:5px; width:45%; font-size:16px; text-indent:5px;"></span></h4>
+
+									
+
+										<h4 style="color:#636466; padding-top:10px;"><b>PERSONAL INFORMATION</b><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>NAME<br>
+										<input type="text" name="firstname" placeholder="First Name" style="color:#939598; padding-top:5px; padding-bottom:5px; width:45%; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+										
+										<input type="text" name="lastname" placeholder="Last Name" style="color:#939598; padding-top:5px; padding-bottom:5px; width:45%; font-size:16px; text-indent:5px;"></span></h4>
+
+										
+										
+										<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;">DATE OF BIRTH<br>
+										<select style="width:30%; color:#939598; padding:10px; line-height: 1.2;">
+							               <option value = "1">Select Month</option>
+							               <option value = "2">January</option>
+							               <option value = "3">February</option>
+							               <option value = "4">March</option>
+							               <option value = "5">April</option>
+							               <option value = "6">May</option>
+							               <option value = "7">June</option>
+							               <option value = "8">July</option>
+							               <option value = "9">August</option>
+							               <option value = "10">September</option>
+							               <option value = "11">October</option>
+							               <option value = "12">November</option>
+							               <option value = "13">December</option>
+							            </select>&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="day" placeholder="DD" style="color:#939598; padding-top:5px; padding-bottom:5px; width:15%; height:30px; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="year" placeholder="YYYY" style="color:#939598; padding-top:5px; padding-bottom:5px; width:15%; height:30px; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;</span></h4>
+
+									
+										<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;">PHONE NUMBER<br>
+										<select style="width:30%; color:#939598; padding:10px; line-height: 1.2;">
+							               <option value = "1">United Kingdom (+44)</option>
+							               <option value = "2">Aregentina (+54)</option>
+							               <option value = "3">Aruba (+297)</option>
+							               <option value = "4">Australia (+61)</option>
+							               <option value = "5">Austria (+43)</option>
+							               <option value = "6">Barbados (+1-246)</option>
+							               <option value = "7">Belgium (+32)</option>
+							               <option value = "8">Brazil (+55)</option>
+							               <option value = "9">Canada (+1)</option>
+							            </select>&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="day" placeholder="Enter Phone Number" style="color:#939598; padding-top:5px; padding-bottom:5px; width:32%; height:30px; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;</span></h4>
+								
+									
+							           <h4 style="color:#636466;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ADDRESS<br>
+										<input type="text" name="Street Address Line 1" placeholder="First Name" style="color:#939598; padding-top:5px; padding-bottom:5px; width:92%; font-size:16px; text-indent:5px;"><br><br>
+										
+										<input type="text" name="Street Address Line 2" placeholder="Last Name" style="color:#939598; padding-top:5px; padding-bottom:5px; width:92%; font-size:16px; text-indent:5px;"><br><br>
+
+										<select style="width:26%; color:#939598; padding:10px; line-height: 1.2;">
+							               <option value = "1">Country</option>
+							               <option value = "2">Aregentina (+54)</option>
+							               <option value = "3">Aruba (+297)</option>
+							               <option value = "4">Australia (+61)</option>
+							               <option value = "5">Austria (+43)</option>
+							               <option value = "6">Barbados (+1-246)</option>
+							               <option value = "7">Belgium (+32)</option>
+							               <option value = "8">Brazil (+55)</option>
+							               <option value = "9">Canada (+1)</option>
+							                <option value = "1">United Kingdom (+44)</option>
+							            </select>&nbsp;&nbsp;
+
+										<input type="text" name="Province/State" placeholder="Province/State" style="color:#939598; padding-top:5px; padding-bottom:5px; width:20%; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="City" placeholder="City" style="color:#939598; padding-top:5px; padding-bottom:5px; width:20%; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="Code/Postal" placeholder="Code/Postal" style="color:#939598; padding-top:5px; padding-bottom:5px; width:20%; font-size:16px; text-indent:5px;"></span></h4>
+
+									
+
+										<h4 style="color:#636466; padding-top:10px;"><b>IDENTIFICATION</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Please provide us with the government issued identification number. This is utilised to add further security to your account and its transactions.<br><br>
+										ID DOCUMENT<br>
+
+										<select style="width:45%; color:#939598; padding:10px; line-height: 1.2;">
+							               <option value = "1">Document Type</option>
+							               <option value = "2">Drivers License</option>
+							               <option value = "3">Passport</option>
+							               <option value = "4">National ID Card</option>
+							            </select>&nbsp;&nbsp;&nbsp;
+
+										<input type="text" name="idnumber" placeholder="Enter Document Number" style="color:#939598; padding-top:5px; padding-bottom:5px; width:45%; font-size:16px; text-indent:5px;">&nbsp;&nbsp;&nbsp;
+
+										<hr>
+
+										<h4 style="color:#636466; padding-top:10px;"><input type="checkbox" name="password" placeholder="Create Password" style="color:#939598;">&nbsp;&nbsp;&nbsp;<span style="font-size: 14px; font-weight: 300; color:#636466;"><b>Yes,</b> I have read and accept the <u>Terms and Conditions</u>.<br><br><input type="button"  style="color:#e70c28; font-weight:400; background-color:#FFF;" class="button button-border button-rounded uppercase nomargin" value="Secure Sign Up" /></span></h4>
+
+										
+										
+										
+										
+										
+									</form>
 								</div>
 								
 
 							</div>
 
 
-							<div class="col-md-3">
-								<div style="padding-left:30px;">
+							<div class="col-md-4">
+								<div style="padding-left:30px; padding-right:70px;">
 									<img src="../images/demo/demo-callout-kyc.png" width="90px;">
-									<h4 style="font-weight:500; color:#636466;">Leverage the industries largest selection of KYC data sources, all via a single API integration.</h4>
+									<h4 style="font-weight:500; color:#636466;">Future Proof Your Business<br><span style="font-weight:300; color:#636466;">Leverage the industries largest selection of KYC data sources, all via a single API integration.</span></h4><br><br><br><br><br>
+
+									<img src="../images/demo/demo-callout-compliance.png" width="90px;">
+									<h4 style="font-weight:500; color:#636466;">Be 4MLD and PSD2 compliant.<br><span style="font-weight:300; color:#636466;">Activate our standard KYC package to obtain required regulatory compliance.<br><br>Package includes:<br>
+									• Geo Check<br>
+								 	• Bin Check<br>
+									• Breached Email Check<br>
+									• Physical Address Check<br>
+									• Phone ID Check<br>
+									• Compliance Watchlist Check</span></h4>
+
 							</div>
 
 								
@@ -256,6 +369,8 @@
 
 		});
 	</script>
+
+	
 
 </body>
 </html>
