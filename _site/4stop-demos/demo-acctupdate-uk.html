@@ -12,6 +12,8 @@
  
 </script>
 
+<script src="../js/forms/jquery.nice-select.js"></script>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
@@ -28,6 +30,7 @@
 	<link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="../css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="../css/nice-select.css">
 
 	<link rel="stylesheet" href="../css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,13 +72,13 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="#" data-scrollto="#section-environment"><div>Environment</div></a></li>
+							<li><a href="index.html#section-environment"><div>Environment</div></a></li>
 
-							<li><a href="#" data-scrollto="#section-challenges"><div>Challenges</div></a></li>
+							<li><a href="index.html#section-challenges"><div>Challenges</div></a></li>
 							
-							<li><a href="#" data-scrollto="#section-solution"><div>Solutions</div></a></li>
+							<li><a href="index.html#section-solution"><div>Solutions</div></a></li>
 
-							<li><a href="#" data-scrollto="#section-benefits"><div>Benefits</div></a></li>
+							<li><a href="index.html#section-benefits"><div>Benefits</div></a></li>
 
 							<li><a href="#"><div><i class="icon-play-circle"></i>Demo Type</div></a>
 								<ul>
@@ -88,8 +91,8 @@
 							<li><a href="#">Demo Region - <img src="../images/demo/demoregion-uk.png" width="25px;"></a>
 								<ul>
 									<li><a href="demo-acctupdate-uk.html"><div>United Kingdom</div></a></li>
-									<li><a href="#"><div>Brazil</div></a></li>
 									<li><a href="demo-acctupdate-usa.html"><div>United States</div></a></li>
+									<li><a href="#"><div>Brazil</div></a></li>
 								</ul></li>
 						</ul>
 
@@ -181,7 +184,7 @@
 											<div class="col-md-6 nopadding">
 											<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>DATE OF BIRTH<br>
 												<div class="col-md-6 nopadding topmargin-xsm">
-												   <select style="color:#939598; width:90%;">
+												   <select class="nice-select" style="color:#939598; width:90%;">
 									               <option value = "1">December</option>
 									               <option value = "2">January</option>
 									               <option value = "3">February</option>
@@ -197,10 +200,10 @@
 									               <option value = "13">December</option>
 									               </select>
 												</div>
-												<div class="col-md-2 nopadding">
+												<div class="col-md-2 nopadding topmargin-xsm">
 													<input type="text" name="day" placeholder="05" style="color:#939598; padding-top:5px; padding-bottom:5px; width:90%; font-size:16px; text-indent:5px;">
 												</div>
-												<div class="col-md-3 nopadding">
+												<div class="col-md-3 nopadding topmargin-xsm">
 													<input type="text" name="year" placeholder="1982" style="color:#939598; padding-top:5px; padding-bottom:5px; width:90%; font-size:16px; text-indent:5px;">
 												</div>
 											
@@ -209,7 +212,7 @@
 											<div class="col-md-6 nopadding">
 											<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>PHONE NUMBER<br>
 													<div class="col-md-6 nopadding topmargin-xsm">
-												   <select style="color:#939598; width:95%;">
+												   <select class="nice-select" style="color:#939598; width:95%;">
 									              <option value = "1">United Kingdom (+44)</option>
 								                  <option value = "2">Aregentina (+54)</option>
 								                  <option value = "3">Aruba (+297)</option>
@@ -221,7 +224,7 @@
 								                  <option value = "9">Canada (+1)</option>
 									               </select>
 												</div>
-												<div class="col-md-5 nopadding">
+												<div class="col-md-5 nopadding topmargin-xsm">
 													<input type="text" name="day" placeholder="782-885-9768" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;">
 												</div>
 											</span></h4>
@@ -242,7 +245,7 @@
 										     <div class="col-md-12 nopadding">
 											 <h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;">
 												<div class="col-md-3 nopadding topmargin-xsm">
-													<select style="width:95%; color:#939598; padding:10px; line-height: 1.2;">
+													<select class="nice-select" style="width:95%; color:#939598; padding:10px; line-height: 1.2;">
 									               <option value = "1">United Kingdom</option>
 									               <option value = "2">Aregentina</option>
 									               <option value = "3">Aruba</option>
@@ -256,16 +259,16 @@
 								           			 </select>
 												</div>
 
-												 <div class="col-md-3 nopadding">
+												 <div class="col-md-3 nopadding topmargin-xsm">
 												<input type="text" name="day" placeholder="GB" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;">
 												</div>
 
-												 <div class="col-md-3 nopadding">
+												 <div class="col-md-3 nopadding topmargin-xsm">
 												<input type="text" name="day" placeholder="London" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;">
 												</div>
 
 
-												 <div class="col-md-3 nopadding">
+												 <div class="col-md-3 nopadding topmargin-xsm">
 												<input type="text" name="day" placeholder="N87SB" style="color:#939598; padding-top:5px; padding-bottom:5px; width:80%; font-size:16px; text-indent:5px;">
 												</div>
 											</span></h4>
@@ -274,23 +277,32 @@
 											
 										<div class="col-md-12 nopadding topmargin-sm">
 
-										<h4 style="color:#636466; padding-top:10px;"><b>IDENTIFICATION</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Please provide us with the government issued identification number. This is utilised to add further security to your account and its transactions.<br><br>
-										ID DOCUMENT<br>
+										<h4 style="color:#636466; padding-top:10px;"><b>IDENTIFICATION</b><br><span style="font-size: 16px; font-weight: 300; color:#636466;">Please provide us with the government issued identification number. This is utilised to add further security to your account and its transactions.<br>
 
-										<div class="col-md-6 nopadding topmargin-xsm">
-											<select style="width:90%; color:#939598; padding:10px; line-height: 1.2;">
-								               <option value = "1">Document Type</option>
-								               <option value = "2">Drivers License</option>
-								               <option value = "3">Passport</option>
-								               <option value = "4">National ID Card</option>
-								            </select>
-							       		 </div>
+											<div class="col-md-4 nopadding">
+												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ID DOCUMENT #1<br>
+													<div class="col-md-12 nopadding topmargin-xsm">
+														<input type="file" name="my_file" id="my-file">
+													</div>
+											</div>
+											
+											<div class="col-md-4 nopadding">
+												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ID DOCUMENT #2<br>	
+													<div class="col-md-12 nopadding topmargin-xsm">
+													<input type="file" name="my_file" id="my-file">
+													</div>
+												</span></h4>
+										    </div>
 
-							       		 <div class="col-md-6 nopadding">
-										<input type="text" name="idnumber" placeholder="Enter Document Number" style="color:#939598; padding-top:5px; padding-bottom:5px; width:90%; font-size:16px; text-indent:5px;">
-										</div>
-
-										</div>
+										    	<div class="col-md-4 nopadding">
+												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>SELFIE<br>	
+													<div class="col-md-12 nopadding topmargin-xsm">
+													<input type="file" name="my_file" id="my-file">
+													</div>
+												</span></h4>
+										    </div>
+										   
+										  </div>
 
 
 

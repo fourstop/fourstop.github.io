@@ -73,13 +73,13 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="#" data-scrollto="#section-environment"><div>Environment</div></a></li>
+							<li><a href="index.html#section-environment"><div>Environment</div></a></li>
 
-							<li><a href="#" data-scrollto="#section-challenges"><div>Challenges</div></a></li>
+							<li><a href="index.html#section-challenges"><div>Challenges</div></a></li>
 							
-							<li><a href="#" data-scrollto="#section-solution"><div>Solutions</div></a></li>
+							<li><a href="index.html#section-solution"><div>Solutions</div></a></li>
 
-							<li><a href="#" data-scrollto="#section-benefits"><div>Benefits</div></a></li>
+							<li><a href="index.html#section-benefits"><div>Benefits</div></a></li>
 
 							<li><a href="#"><div><i class="icon-play-circle"></i>Demo Type</div></a>
 								<ul>
@@ -92,8 +92,8 @@
 							<li><a href="#">Demo Region - <img src="../images/demo/demoregion-usa.png" width="25px;"></a>
 								<ul>
 									<li><a href="demo-acctupdate-uk.html"><div>United Kingdom</div></a></li>
-									<li><a href="#"><div>Brazil</div></a></li>
 									<li><a href="demo-acctupdate-usa.html"><div>United States</div></a></li>
+									<li><a href="#"><div>Brazil</div></a></li>
 								</ul></li>
 						</ul>
 
@@ -238,7 +238,7 @@
 										    <div class="col-md-12 nopadding">
 											<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ADDRESS<br>
 											<input type="text" name="day" placeholder="2811 Northwoods Land" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;"><br><br>
-											<input type="text" name="day" placeholder="Street Address Line 2" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;">
+											<input type="text" name="day" placeholder="Street Address Line 2 (optional)" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px;">
 											</span></h4>
 										    </div>
 										
@@ -285,25 +285,26 @@
 											<div class="col-md-4 nopadding">
 												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ID DOCUMENT #1<br>
 													<div class="col-md-12 nopadding topmargin-xsm">
-														<input type="button"  style="color:#808285; border-color:#d1d3d4; border-width:1px; font-weight:400; background-color:#f6f6f6;" class="button button-border button-rounded uppercase nomargin" value="Select File" /><br><span style="font-size: 11px;">No File Uploaded</span>
+														<input type="file" name="my_file" id="my-file">
 													</div>
 											</div>
 											
 											<div class="col-md-4 nopadding">
 												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>ID DOCUMENT #2<br>	
 													<div class="col-md-12 nopadding topmargin-xsm">
-													<input type="button"  style="color:#808285; border-color:#d1d3d4; border-width:1px; font-weight:400; background-color:#f6f6f6;" class="button button-border button-rounded uppercase nomargin" value="Select File" /><br><span style="font-size: 11px;">No File Uploaded</span>
+													<input type="file" name="my_file" id="my-file">
 													</div>
 												</span></h4>
 										    </div>
 
-										    <div class="col-md-3 nopadding">
+										    	<div class="col-md-4 nopadding">
 												<h4 style="color:#636466; padding-top:10px;"><span style="font-size: 16px; font-weight: 300; color:#636466;"><br>SELFIE<br>	
 													<div class="col-md-12 nopadding topmargin-xsm">
-													<input type="button"  style="color:#808285; border-color:#d1d3d4; border-width:1px; font-weight:400; background-color:#f6f6f6;" class="button button-border button-rounded uppercase nomargin" value="Select File" /><br><span style="font-size: 11px;">No File Uploaded</span>
+													<input type="file" name="my_file" id="my-file">
 													</div>
 												</span></h4>
 										    </div>
+										   
 										  </div>
 
 
@@ -417,6 +418,12 @@
 	============================================= -->
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/plugins.js"></script>
+
+<script type="text/javascript">
+	$('#my-button').click(function(){
+    $('#my-file').click();
+	});
+	</script>
 
 	<!-- Footer Scripts
 	============================================= -->
