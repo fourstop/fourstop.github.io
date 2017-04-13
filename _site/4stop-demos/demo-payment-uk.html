@@ -12,6 +12,8 @@
  
 </script>
 
+<script src="../js/forms/jquery.nice-select.js"></script>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
@@ -28,6 +30,7 @@
 	<link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="../css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="../css/nice-select.css">
 
 	<link rel="stylesheet" href="../css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,7 +40,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>4Stop Demo Logins</title>
+	<title>4Stop Demo Payment</title>
 
 </head>
 
@@ -79,17 +82,17 @@
 
 							<li><a href="#"><div><i class="icon-play-circle"></i>Demo Type</div></a>
 								<ul>
-									<li><a href="demo-signup-usa.html"><div>Account Sign Ups</div></a></li>
-									<li><a href="demo-login-usa.html"><div>Account Logins</div></a></li>
-									<li><a href="demo-acctupdate-usa.html"><div>Account Updates</div></a></li>
-									<li><a href="demo-payment-usa.html"><div>Payments</div></a></li>
+									<li><a href="demo-signup-uk.html"><div>Account Sign Ups</div></a></li>
+									<li><a href="demo-login.html"><div>Account Logins</div></a></li>
+									<li><a href="demo-acctupdate-uk.html"><div>Account Updates</div></a></li>
+									<li><a href="demo-payment-uk.html"><div>Payments</div></a></li>
 								</ul></li>
 
-							<li><a href="#">Demo Region - <img src="../images/demo/demoregion-usa.png" width="23px;"></a>
+							<li><a href="#">Demo Region - <img src="../images/demo/demoregion-uk.png" width="25px;"></a>
 								<ul>
-									<li><a href="demo-login.html"><div>United Kingdom</div></a></li>
-									<li><a href="demo-login-usa.html"><div>United States</div></a></li>
-									<li><a href="demo-login-br.html"><div>Brazil</div></a></li>
+									<li><a href="demo-payment-uk.html"><div>United Kingdom</div></a></li>
+									<li><a href="demo-payment-usa.html"><div>United States</div></a></li>
+									<li><a href="demo-payment-br.html"><div>Brazil</div></a></li>
 								</ul></li>
 						</ul>
 
@@ -109,7 +112,7 @@
 		============================================= -->
 		<section id="slider" style="height:315px;">
 			<div class="full-screen clearfix">
-				<img src="../images/demo/demotype-banner-logins.jpg" width="100%;">
+				<img src="../images/demo/demotype-banner-signup.jpg" width="100%;">
 			</div>	
 		</section>
 		<!-- Banner END-->
@@ -121,7 +124,7 @@
 		<section id="content" style="background-color:#be1e24;">
 						<div class="container clearfix center">
 							<div class="bottommargin topmargin rightmargin-xlg leftmargin-xlg">
-								<h1 style="font-size:40px; color:#FFF; line-height: 0.9;">Welcome To Account Login Demo<br><br> <span style="font-weight:300; font-size:22px; color:#FFF;">Secure your business with leading-edge verification and authentication services at each and every customer account login.</span></h1>
+								<h1 style="font-size:40px; color:#FFF; line-height: 0.9;">Welcome To The Payments Demo<br><br> <span style="font-weight:300; font-size:22px; color:#FFF;">Enjoy peace of mind with each and every transaction with multi-layered verifications performed through a robust rules engine, real-time analytics, alerts and more. </span></h1>
 							</div>
 						</div>	
 		</section>
@@ -138,24 +141,83 @@
 
 							<div class="col-md-8 bottommargin" style="background-color:#FFF;">
 								<div>
-									<p style="float:left; padding-top:20px; padding-right:10px; padding-left:10px;"><img src="../images/demo/demo-login-icon-dk.png" width="60px;"></p><h2 style="color:#636466; padding-top:30px;">Login into your account.
+									<p style="float:left; padding-top:20px; padding-right:10px; padding-left:10px;"><img src="../images/demo/demo-payment-icon.png" width="50px;"></p><h2 style="padding-top:30px;">Checkout.
 								</div>
 								
-
 								
-								<div class="bottommargin" style="background-color:#FFF; padding-left:20px;">
-
-									<form>
-										<h4 style="color:#636466; padding-top:30px; line-height:2.0;"><b>EMAIL</b><br>
-										 <input type="text" name="email" placeholder="Enter Your Email" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px; font-weight: 300;"></h4>
+										<div class="bottommargin" style="background-color:#FFF; padding-left:20px;">
+											<h2>€ 250.00</h2>
+											<hr>
+										
+											<h4 style="padding-top:10px; line-height:1.5;"><b>BILLING INFORMATION</b><br><span style="color:#636466; font-size: 16px; font-weight: 300; line-height:2.0;">Javier Castro<br>
+											2 Aduro Court - The Campsbourne<br>
+											United Kingdom, GB, London<br>
+											N87SB
+											</span></h4>
+										 <div>
+										
+										
 
 										
-										<h4 style="color:#636466; padding-top:10px; line-height:2.0;"><b>PASSWORD</b><br>
-										<input type="text" name="password" placeholder="Enter Your Password" style="color:#939598; padding-top:5px; padding-bottom:5px; width:95%; font-size:16px; text-indent:5px; font-weight: 300;"><br><span style="font-size: 12px; font-weight: 300; color:#636466;">Forgot your password? <u>Reset it now.</u></span></h4>
+										
+										<div class="col-md-12 nopadding">
+											<form>
+											<h4 style="padding-top:10px; line-height:1.5;"><b>PAYMENT INFORMATION</b><br><span style="color:#636466; font-size: 16px; font-weight: 300; line-height:2.0;">
+											<input type="radio" name="paymentmethod" value="creditcard" checked style="color:#939598; padding-top:5px; padding-bottom:5px; font-size:16px; text-indent:5px;"> Credit Card<br>
+											<input type="radio" name="paymentmethod" value="creditcard" style="color:#939598; padding-top:5px; padding-bottom:5px; font-size:16px; text-indent:5px;"> PayPal<br>
+											<input type="radio" name="paymentmethod" value="creditcard" style="color:#939598; padding-top:5px; padding-bottom:5px; font-size:16px; text-indent:5px;"> Direct Bank Transfers<br>
+											</span></h4>
+										</div>
+											
+										
+											
+										<div class="col-md-12 nopadding">
+											<p style="float:left; padding-right:10px;"><img src="../images/demo/mastercard.jpg" width="70px;"></p>
+											<p style="float:left;"><img src="../images/demo/visa.jpg" width="70px;"></p>
+										</div>
+											
+										
 
-										<hr>
+										<div class="col-md-6 nopadding">
+											<span style="color:#636466; font-size: 16px; font-weight: 300;"><br>NAME AS APPEARS ON CARD<br>
+												<input type="text" class="demo-form" name="day" placeholder="05">
+										</div>
+											
 
-										<p class="center"><a href="#" class="button button-dark button-rounded uppercase nomargin" style="padding-right:40px; padding-left:40px;">Login To Your Account</a></p>
+										<div class="col-md-6 nopadding">
+											<span style="color:#636466; font-size: 16px; font-weight: 300;"><br>CREDIT CARD NUMBER<br>
+												<input type="text" class="demo-form" name="day" placeholder="05"></span></h4>
+										  </div>
+
+
+										 <div class="col-md-6 nopadding">
+											<span style="color:#636466; font-size: 16px; font-weight: 300;"><br>EXPIRE<br>
+												 <div class="col-md-3 nopadding">
+													<input type="text" class="demo-form" name="expire" placeholder="MM">
+												</div>
+
+												 <div class="col-md-3 nopadding">
+													<input type="text" class="demo-form" name="expire" placeholder="YY">
+												</div>
+										</div>
+											
+										<div class="col-md-6 nopadding">
+											<span style="color:#636466; font-size: 16px; font-weight: 300;"><br>SECURITY CODE<br>
+												<input type="text" class="md-demo-form" name="securitycode" placeholder="###"></span></h4>
+										  </div>
+												
+											
+										
+
+
+
+										<div class="col-md-12 nopadding topmargin-sm">
+
+											<hr>
+											
+											<p class="center"><a href="#" class="button button-dark button-rounded uppercase nomargin" style="padding-right:40px; padding-left:40px;">COMPLETE TRANSACTION</a></p>
+
+										</div>
 
 										
 									</form>
@@ -163,13 +225,27 @@
 								
 
 							</div>
+						</div>
 
 
 							<div class="col-md-4">
 								<div style="padding-left:30px; padding-right:70px;">
-									<img src="../images/demo/demo-callout-kyc.png" width="90px;">
-									<h4 style="font-weight:500; color:#636466;">Premium authentication technology, at your fingertips.<br><br><span style="font-weight:300; color:#636466;">Through our single API, you get direct access to today's leading user authentication services, with the ability to activate any authentication feature in real-time and in just a few clicks.</span></h4>
-								</div>
+									<img src="../images/demo/demo-callout-payment.png" width="90px;">
+									<h4 style="font-weight:500;">Stay compliant.<br>Combat fraud.<span style="color:#636466; font-weight:300;"><br><br>Activate payment specific data sources and verifications coupled with rules to trigger automatic system actions to stop fraud in its tracks, decrease false positives, reduce CHB and increase business revenues.
+									<br><br><br>
+
+									• Bank Account Verifications<br>
+								 	• AML/CTF Reporting<br>
+									• Source of Funds Check<br>
+									• Robust Rules Engine<br>
+									• Real-time Screen Feeds<br>
+									• Customised Notifications<br>
+									• Custom KPI Dashboards
+								</span></h4>
+
+									
+
+							</div>
 
 								
 						
