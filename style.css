@@ -164,9 +164,8 @@ iframe { border: none !important; }
 h1,
 h2,
 h3,
-h4,
 h6 {
-	color: #636466;
+	color: #808285;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -174,9 +173,17 @@ h6 {
 }
 
 h5 {
-	color: #636466;
+	color: #808285;
 	font-weight: 200;
 	line-height: 1.5;
+	margin: 0 0 30px 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+	color: #808285;
+	font-weight: 600;
+	line-height: 1.4;
 	margin: 0 0 30px 0;
 	font-family: 'Roboto', sans-serif;
 }
@@ -309,9 +316,11 @@ span.middot {
 
 .topmargin-xsm { margin-top: 8px !important; }
 
+.topmargin-md { margin-top: 50px !important; }
+
 .bottommargin-sm { margin-bottom: 30px !important; }
 
-.bottommargin-me { margin-bottom: 60px !important; }
+.bottommargin-md { margin-bottom: 60px !important; }
 
 .clear-bottommargin-sm { margin-bottom: -30px !important; }
 
@@ -6654,10 +6663,10 @@ body:not(.device-touch) .button {
 .button:hover {
 	background-color: #d2232a;
 	color: #FFF;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	
 }
 
-.button.button-dark:hover { background-color: #d2232a; }
+.button.button-dark:hover { background-color: #b2202a; }
 
 .button.button-mini {
 	padding: 0 14px;
