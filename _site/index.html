@@ -60,8 +60,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/4stop-logo.png"><img src="images/4stop-logo.png" alt="4Stop Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/4Stop-logo@2x.png"><img src="images/4stop-logo@2x.png" alt="4Stop Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="images/4stop-logo-red@2x.png"><img src="images/4stop-logo-red@2x.png" alt="4Stop Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/4Stop-logo-red@2x.png"><img src="images/4stop-logo-red@2x.png" alt="4Stop Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -69,9 +69,9 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="#"><div>Product</div></a>
+							<li><a href="#"><div>Services</div></a>
 								<ul>
-									<li><a href="know-your-customer.html"><div>Know Your Customers</div></a></li>
+									<li><a href="know-your-customer.html"><div>KYC</div></a></li>
 									<li><a href="compliance.html"><div>Compliance</div></a></li>
 									<li><a href="anti-fraud.html"><div>Anti-Fraud</div></a></li>
 									
@@ -79,19 +79,19 @@
 								</ul>
 							</li>
 
-							<!--<li><a href="#"><div>Services</div></a>-->
-							
 
-							<!--<li><a href="#"><div>Solutions</div></a>
+								<li><a href="#"><div>Market Solutions</div></a>
 								<ul>
-									<li><a href="#"><div>Payment Gateways</div></a></li>
-									<li><a href="#"><div>Online Gaming</div></a></li>
-									<li><a href="#"><div>Adult</div></a></li>
-									<li><a href="#"><div>Pharma</div></a></li>
-									<li><a href="#"><div>Travel</div></a></li>
-									<li><a href="#"><div>Online Retailer</div></a></li>
+									<li><a href="#"><div>Payments PSPs</div></a></li>
+									<li><a href="#"><div>eWallets </div></a></li>
+									<li><a href="#"><div>Online Gambling</div></a></li>
+									<li><a href="#"><div>eCommerce</div></a></li>
+									
+									
 								</ul>
-							</li>-->
+							</li>
+
+						
 
 
 							<li><a href="#"><div>Company</div></a>
@@ -125,57 +125,61 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix" data-autoplay="7000" data-speed="650" data-loop="true">
+
 			<div class="slider-parallax-inner">
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide light" style="background-image: url('images/banner-futureproof-kyc.jpg');">
+						<div class="swiper-slide" style="background-image: url('images/banner-futureproof.jpg'); background-position: center top;">
 							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center topmargin">
-									<h2 data-caption-animate="fadeInUp" style="color:#FFF">Future Proof Your KYC</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#FFF">Leverage hundreds of global KYC vendors for premium compliance<br> and anti-fraud, via one API.</p>
-									<p data-caption-animate="fadeInUp" style="padding-top:30px;"><a href="know-your-customer.html" class="button button-border button-light button-rounded uppercase nomargin" style="padding-right:40px; padding-left:40px;">View Features</a></p>
+								<div class="slider-caption">
+									<h2 data-caption-animate="fadeInUp">Validate, Authenticate,<br> Verify and Monitor</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
 								</div>
 							</div>
 						</div>
-
-
-						<div class="swiper-slide light" style="background-image: url('images/banner-compliance.jpg');">
+						
+						<div class="swiper-slide" style="background-image: url('images/banner-futureproof.jpg'); background-position: center top;">
 							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center topmargin">
-									<h2 data-caption-animate="fadeInUp" style="color:#FFF">Compliance Checkmarks</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#FFF">We make you 4MLD, 5MLD and PSD2 ready while keeping you current with authorities such as FCA, Bafin, Fincen, and Fintrac.</p>
-									<p data-caption-animate="fadeInUp" style="padding-top:30px;"><a href="compliance.html" class="button button-border button-light button-rounded uppercase nomargin" style="padding-right:40px; padding-left:40px;">View Features</a></p>
+								<div class="slider-caption">
+									<h2 data-caption-animate="fadeInUp">KYC for Compliance<br> Made Easy.</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
 								</div>
 							</div>
 						</div>
-
-						<div class="swiper-slide light" style="background-image: url('images/banner-oneintegration.jpg');">
-							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center topmargin">
-									<h2 data-caption-animate="fadeInUp" style="color:#FFF">One API & IT independent</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#FFF">Activate a new KYC data source, enter a new market or aggregate data, enjoy little to no development time with our Data Scientists available 24/7 to help.</p>
-									
-								</div>
-							</div>
-						</div>
-
 					</div>
 					<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
 					<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+					<div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
+					<div class="swiper-pagination"></div>
 				</div>
 
-				<a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
 			</div>
+
 		</section>
+
+
+
+		
 			<!-- Slider END -->
 
 
 
+<div class="content-wrap nopadding" style="background-color:#be1e24;">
+				<div class="container clearfix">
+					<div id="section-home" class="heading-block title-center nobottomborder topmargin-md bottommargin-md page-section">
+						<h2 style="color:#FFF;">Identity. Compliance. Anti-fraud. </h2>
+						<span style="color:#FFF;">Our platform gives you everything you need to obtain compliance and mitigate fraud globally. Through instant access to hundreds of KYC data services, coupled with our prioritary anti-fraud technology, you’ll maximise verified customers, increase positive transactions and stay compliant.  
+</span>
+					</div>
+				</div>
+		</div>
+
+
+
 		<!-- Page Sub Menu
-		============================================= -->
+		============================================= 
 		<div id="page-menu">
 
 			<div id="page-menu-wrap">
@@ -200,12 +204,28 @@
 
 			</div>
 
-		</div><!-- #page-menu end -->
+		</div>-->
 
 		<!-- Content Into A
 		============================================= -->
 
 		<section id="content">
+
+
+
+
+<div class="content-wrap nopadding">
+				<div class="container clearfix">
+					<div id="section-home" class="heading-block title-center nobottomborder topmargin-md bottommargin-md page-section">
+						<h1 style="font-weight:300;">Be 4MLD and PSD2 compliant with ease.</h1>
+						<span style="color:#FFF;">Everything you need to be compliant and combat fraud. We offer you the largest selection of global KYC data sources in the industry with the ability to activate them in real-time, coupled with our prioritary anti-fraud technology, all via one API.</span>
+					</div>
+				</div>
+		</div>
+
+
+
+
 
 			<div class="content-wrap">
 				<section id="section-overview" class="page-section">
