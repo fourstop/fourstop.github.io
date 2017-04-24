@@ -298,7 +298,7 @@
 
 	#header.transparent-header,
 	#header.semi-transparent {
-		background: #333;
+		background: #F2F2F2;
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 		z-index: auto;
 	}
@@ -355,7 +355,7 @@
 	#primary-menu-trigger {
 		opacity: 1;
 		pointer-events: auto;
-		top: 25px;
+		top: 20px;
 		margin-top: 0;
 		left: 0;
 		z-index: 1;
