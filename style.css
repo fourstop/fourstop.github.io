@@ -11,6 +11,7 @@
 
 /* ----------------------------------------------------------------
 
+
 	- Basic
 	- Typography
 	- Basic Layout Styles
@@ -3298,6 +3299,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 }
 
 #content p { line-height: 1.5; }
+
 
 .content-wrap {
 	position: relative;
@@ -7472,9 +7474,9 @@ body:not(.device-touch) .button.button-full strong {
 	display: inline-block;
 }
 
-.feature-box.fbox-plain.fbox-small { padding-left: 42px; }
+.feature-box.fbox-plain.fbox-small { padding-left: 30px; }
 
-.feature-box.fbox-plain.fbox-small .fbox-icon { width: 28px; }
+.feature-box.fbox-plain.fbox-small .fbox-icon { width: 0px; }
 
 .feature-box.fbox-plain.fbox-small h3 {
 	font-size: 15px;
