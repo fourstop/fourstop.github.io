@@ -2054,6 +2054,16 @@ body:not(.device-touch) #page-menu nav li a {
 #page-menu ul ul li.current a { background-color: rgba(0,0,0,0.3); }
 
 
+
+#service-link a {
+	color:#FFF;
+}
+
+#service-link a:hover {
+	color:#89d4e5;
+}
+
+
 /* Page Menu - Dots Style
 -----------------------------------------------------------------*/
 
