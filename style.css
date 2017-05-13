@@ -2730,7 +2730,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	z-index: 20;
 	margin: 0;
 	top: auto;
-	bottom: 30px !important;
+	bottom: 35px !important;
 	text-align: center;
 	line-height: 1;
 }
