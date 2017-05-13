@@ -1158,7 +1158,7 @@
 	.camera_caption,
 	.ei-title,
 	.slider-arrow-top-sm,
-	.slider-arrow-bottom-sm { display: none !important; }
+	.slider-arrow-bottom-sm { }
 
 	.slider-caption h2 { margin-bottom: 0 !important; }
 
