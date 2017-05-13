@@ -2160,7 +2160,7 @@ body:not(.device-touch) #page-menu nav li a {
 .one-page-arrow {
 	position: absolute;
 	z-index: 3;
-	bottom: 20px;
+	bottom: 80px;
 	left: 50%;
 	margin-left: -16px;
 	width: 32px;
