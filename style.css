@@ -198,7 +198,10 @@ h2 { font-size: 30px; }
 
 h3 { font-size: 24px; }
 
-h4 { font-size: 18px; }
+h4 { 
+	font-size: 18px; 
+	letter-spacing: 0px;
+	}
 
 h5 { font-size: 14px; }
 
@@ -214,7 +217,9 @@ h2 > span:not(.nocolor),
 h3 > span:not(.nocolor),
 h4 > span:not(.nocolor),
 h5 > span:not(.nocolor),
-h6 > span:not(.nocolor) { color: #d2232a; }
+h6 > span:not(.nocolor) { 
+	color: #d2232a;
+	letter-spacing: 0px; }
 
 p,
 pre,
@@ -320,6 +325,8 @@ span.middot {
 .topmargin-md { margin-top: 50px !important; }
 
 .bottommargin-sm { margin-bottom: 30px !important; }
+
+.bottommargin-xsm { margin-bottom: 15px !important; }
 
 .bottommargin-md { margin-bottom: 60px !important; }
 
@@ -446,7 +453,7 @@ span.middot {
 
 .font-body { font-family: 'Lato', sans-serif; }
 
-.font-primary { font-family: 'Raleway', sans-serif; }
+.font-primary { font-family: 'Roboto', sans-serif; }
 
 .font-secondary { font-family: 'Crete Round', serif; }
 
@@ -1155,12 +1162,12 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px 11px;
-	font-weight:600;
+	font-weight:500;
 	color: #6d6e71;
 	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
@@ -1186,7 +1193,9 @@ body.stretched #header.full-header .container {
 #primary-menu ul li:hover > a,
 #primary-menu ul li.current > a { 
 	color: #d2232a;
-	font-weight: 800;
+	font-weight: 700;
+	letter-spacing: 1px;
+
 	 }
 
 #primary-menu > ul > li.sub-menu > a > div { }
@@ -1203,6 +1212,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
 	border: 1px solid #d1d3d4;
 	border-top: 2px solid #d2232a;
+		letter-spacing: 1px;
 	height: auto;
 	z-index: 199;
 	top: 100%;
@@ -1328,7 +1338,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
 	font-size: 13px;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;
 	margin-bottom: 15px;
@@ -4807,7 +4817,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 	display: block;
 	width: 100%;
 	background-color: #c81124;
-	padding: 20px 0;
+	padding: 20px 10px 20px 10px;
 	text-align: center;
 	color: #444;
 	font-family: 'Roboto', sans-serif;
@@ -11016,6 +11026,15 @@ label.error { display: none !important; }
 	color: #6d6e71;
 }
 
+.heading-block h2, span {
+	margin-bottom: 0;
+	font-weight: 300;
+	font-size: 25px;
+	
+	letter-spacing: 1px;
+	color: #6d6e71;
+}
+
 .emphasis-title h1,
 .emphasis-title h2 {
 	font-weight: 400;
@@ -11032,6 +11051,7 @@ label.error { display: none !important; }
 .heading-block h4 {
 	font-size: 20px;
 	font-weight: 700;
+	letter-spacing: 0px;
 	color: #777;
 }
 
@@ -11052,6 +11072,7 @@ label.error { display: none !important; }
 	display: block;
 	margin-top: 10px;
 	font-weight: 300;
+	letter-spacing: 0px;
 	color: #777;
 }
 
