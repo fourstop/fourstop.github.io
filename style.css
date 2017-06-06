@@ -7325,8 +7325,11 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box p {
+	font-family: 'Roboto', sans-serif;
 	margin: 8px 0 0 0;
-	color: #999;
+	font-size:14px;
+	font-weight:300;
+	color: #58595b;
 }
 
 .feature-box .before-heading { font-size: 14px; }
