@@ -11199,7 +11199,7 @@ label.error { display: none !important; }
 
 .title-center h1,
 .title-center h2,
-.title-center h3 { padding: 0 15px; }
+.title-center h3 { padding: 0 0px; }
 
 .title-center h4,
 .title-center h5,
