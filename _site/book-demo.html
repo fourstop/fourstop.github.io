@@ -210,7 +210,7 @@
 
 					<div class="col-lg-5 leftmargin-sm">
 							<div class="topmargin-xsm">
-								<h2 style="color:#58595b; padding-top:10px; font-size:20px;">LIVE Demo on December 7th, 2017 <br>at 2pm CET  |  1pm GMT  |  8am EST<br><br>
+								<h2 style="color:#58595b; padding-top:10px; font-size:20px;">TEST LIVE Demo on December 7th, 2017 <br>at 2pm CET  |  1pm GMT  |  8am EST<br><br>
 								<span style="color:#be1f25; font-size:18px; line-height:1.2;"><em>Demo login details will automatically be sent to you via email following your registration.</em></span></h2>
 							</div>
 							
@@ -483,7 +483,93 @@
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
 
-	
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+
+	<script type="text/javascript">
+		var tpj = jQuery;
+
+		var revapi202;
+		tpj(document).ready(function() {
+			if (tpj("#rev_slider_202_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_202_1");
+			} else {
+				revapi202 = tpj("#rev_slider_202_1").show().revolution({
+					sliderType: "standard",
+					jsFileLocation: "include/rs-plugin/js/",
+					sliderLayout: "fullscreen",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+						keyboardNavigation: "off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						onHoverStop: "off",
+						touch: {
+							touchenabled: "on",
+							swipe_threshold: 75,
+							swipe_min_touches: 50,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						},
+						
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 1024, 778, 480],
+					gridheight: [868, 768, 960, 720],
+					lazyType: "none",
+					shadow: 0,
+					spinner: "off",
+					stopLoop: "on",
+					stopAfterLoops: 0,
+					stopAtSlide: 1,
+					shuffle: "off",
+					autoHeight: "off",
+					fullScreenAutoWidth: "off",
+					fullScreenAlignForce: "off",
+					fullScreenOffsetContainer: "",
+					fullScreenOffset: "",
+					disableProgressBar: "on",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+				revapi202.bind("revolution.slide.onchange",function (e,data) {
+					if( $(window).width() > 992 ) {
+						if( $('#slider ul > li').eq(data.slideIndex-1).hasClass('dark') ){
+							$('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+							$('#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header').removeClass('dark');
+							$('#header-wrap').removeClass('not-dark');
+						} else {
+							if( $('body').hasClass('dark') ) {
+								$('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+								$('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass('not-dark');
+							} else {
+								$('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+								$('#header-wrap').removeClass('not-dark');
+							}
+						}
+						SEMICOLON.header.logo();
+					}
+				});
+			}
+		}); /*ready*/
+	</script>
 
 </body>
 </html>
