@@ -333,6 +333,7 @@ span.middot {
 .bottommargin-sm { margin-bottom: 30px !important; }
 
 .bottommargin-xsm { margin-bottom: 15px !important; }
+.bottommargin-xxsm { margin-bottom: 8px !important; }
 
 .bottommargin-md { margin-bottom: 60px !important; }
 
@@ -351,6 +352,8 @@ span.middot {
 .topmargin-lg { margin-top: 80px !important; }
 
 .topmargin-xlg { margin-top: 110px !important; }
+
+.topmargin-xxlg { margin-top: 190px !important; }
 
 .bottommargin-lg { margin-bottom: 80px !important; }
 

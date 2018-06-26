@@ -78,6 +78,19 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+
+
+.panel-default {
+	border: none;
+}
+
+.panel-title {
+
+	font-size: 20px;
+	font-color:#58595b;
+	font-weight:300;
+}
 </style>
 
 
@@ -272,27 +285,489 @@
 			</div>
 
 
-		<div class="container clearfix topmargin-lg">
-			<!-- BUTTON 1 -->
-			<button class="collapsible"> 
-				<div class="col-md-12">
-					<div class="col-md-1 center">
-						<img src="flags/a-afghanistan.png" width="40px;">
-					</div>
-					
-					<div class="col-md-9 topmargin-xxsm" style="font-size: 25px;">
-						Afganistan
-					</div>
 
-					<div class="col-md-2">
-						<a href="">View <b>13/16</b> KYC Data Sources Available</a>
-					</div>
-				</div>
-			</button>
+	<div class="container clearfix topmargin-xxlg">
+		<div class="panel-group topmargin-xxsm" id="accordion">
+		  
+		  <!-- SECTION 1 -->
+		  <div class="panel panel-default topmargin-xsm bottommargin-xsm">
+			    <div class="panel-heading">
+			      <h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+			        <img src="flags/a-afghanistan.png" width="50px;" style="padding-right: 15px;"> Afghanistan - <span style="font-size:15px; color:#72ced8;"><em>View <b>13 / 16</b> KYC Data Sources Available</em></span></a>
+			      </h4>
+			    </div>
 
-				<div class="content">
-				
-					<div class="col-md-2 topmargin-sm center">
+			    <!-- SECTION 1 OPEN CONTENT -->
+			    <div id="collapse1" class="panel-collapse collapse">
+			      <div class="panel-body">
+
+
+					     <div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Geo <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-geocheck.png" width="80px;"></h3>
+							</div>
+							
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">BIN <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-bincheck.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Breached Email Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-breachemail.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Physical Address Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-addresscheck.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Phone ID <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-phoneid.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Bank Account Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-bankcheck.png" width="80px;"></h3>
+							</div>
+
+
+
+							<div class="line"></div>
+
+
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Compliance <Br>Watchlist<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Verification</em></span><Br><br><img src="datasources/red-compliance.png" width="80px;"></h3>
+							</div>
+							
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Email <Br>Verification<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Verification</em></span><Br><br><img src="datasources/red-emailverify.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Phone<br> 4-PIN<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-phone4pin.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Knowledge Based Answers<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/grey-kba.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Device <br> ID<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-deviceid.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Device ID Advanced<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-deviceidadvance.png" width="80px;"></h3>
+							</div>
+
+
+
+							<div class="line"></div>
+
+
+
+							<div class="col-md-12">
+								<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-globalidv.png" width="80px;">Global IDV</h3>
+								<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</p>
+							</div>
+
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NAME<br><br>
+									<img src="datasources/checkmark-bluesolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">ADDRESS<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+								
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">GENDER<Br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL ID<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+
+
+
+								<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidocr.png" width="80px;">Document ID OCR</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically verify ID documentation for quality and formating in real-time, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</p>
+								</div>
+
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+									</div>
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+									</div>
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
+									</div>
+
+
+
+							<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidvideo.png" width="80px;">Document ID Video</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</p>
+								</div>
+
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+
+
+									<div class="col-md-6">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document ID live chat verification with a webID agent.</h3>
+									</div>
+
+									<div class="col-md-6">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Bafin compliant Document ID live chat verification with a webID agent.</h3>
+									</div>
+
+
+							<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidmanual.png" width="80px;">Document ID Manual</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</p>
+								</div>
+
+
+			      </div>
+			    </div>
+		  </div>
+		   <!-- SECTION 1 END -->
+
+ 		<!-- SECTION 2 -->
+		  <div class="panel panel-default topmargin-xsm bottommargin-xsm">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+		        <img src="flags/a-armenia.png" width="50px;" style="padding-right: 15px;"> Armenia - <span style="font-size:15px; color:#72ced8;"><em>View <b>13 / 16</b> KYC Data Sources Available</em></span></a>
+		      </h4>
+		    </div>
+
+		     <!-- SECTION 2 OPEN CONTENT -->
+		    <div id="collapse2" class="panel-collapse collapse">
+		      <div class="panel-body">
+
+		      	
+				      	<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Geo <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-geocheck.png" width="80px;"></h3>
+							</div>
+							
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">BIN <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-bincheck.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Breached Email Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-breachemail.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Physical Address Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-addresscheck.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Phone ID <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-phoneid.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Bank Account Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-bankcheck.png" width="80px;"></h3>
+							</div>
+
+
+
+							<div class="line"></div>
+
+
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Compliance <Br>Watchlist<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Verification</em></span><Br><br><img src="datasources/red-compliance.png" width="80px;"></h3>
+							</div>
+							
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Email <Br>Verification<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Verification</em></span><Br><br><img src="datasources/red-emailverify.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Phone<br> 4-PIN<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-phone4pin.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Knowledge Based Answers<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/grey-kba.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Device <br> ID<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-deviceid.png" width="80px;"></h3>
+							</div>
+
+							<div class="col-md-2 topmargin-sm center">
+								<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Device ID Advanced<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Authentication</em></span><Br><br><img src="datasources/red-deviceidadvance.png" width="80px;"></h3>
+							</div>
+
+
+
+							<div class="line"></div>
+
+
+
+							<div class="col-md-12">
+								<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-globalidv.png" width="80px;">Global IDV</h3>
+								<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</p>
+							</div>
+
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NAME<br><br>
+									<img src="datasources/checkmark-bluesolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">ADDRESS<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+								
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">GENDER<Br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+											
+								<div class="col-md-2 center">
+									<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL ID<br><br>
+									<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+								</div>
+
+
+
+								<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidocr.png" width="80px;">Document ID OCR</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically verify ID documentation for quality and formating in real-time, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</p>
+								</div>
+
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+									</div>
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+									</div>
+
+									<div class="col-md-4">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
+									</div>
+
+
+
+								<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidvideo.png" width="80px;">Document ID Video</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</p>
+								</div>
+
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+											
+									<div class="col-md-2 center">
+										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+										<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+									</div>
+
+
+									<div class="col-md-6">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document ID live chat verification with a webID agent.</h3>
+									</div>
+
+									<div class="col-md-6">
+										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Bafin compliant Document ID live chat verification with a webID agent.</h3>
+									</div>
+
+
+								<div class="line"></div>
+
+
+								<div class="col-md-12">
+									<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidmanual.png" width="80px;">Document ID Manual</h3>
+									<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</p>
+								</div>
+
+
+
+		      </div>
+		    </div>
+		  </div>
+		   <!-- SECTION 2 END -->
+
+		 
+		 <!-- SECTION 3 -->
+		  <div class="panel panel-default topmargin-xsm bottommargin-xsm">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+		        <img src="flags/a-bahrain.png" width="50px;" style="padding-right: 15px;"> Bahrain - <span style="font-size:15px; color:#72ced8;"><em>View <b>13 / 16</b> KYC Data Sources Available</em></span></a>
+		      </h4>
+		    </div>
+
+		    <!-- SECTION 3 OPEN CONTENT -->
+		    <div id="collapse3" class="panel-collapse collapse">
+		      <div class="panel-body">
+
+
+		      		<div class="col-md-2 topmargin-sm center">
 						<h3 style="font-size:18px; line-height:1.2; font-weight:300; color:#58595b;">Geo <Br>Check<br><span style="font-size:14px; line-height:1.2; font-weight:300; color:#72ced8;"><em>Validation</em></span><Br><br><img src="datasources/red-geocheck.png" width="80px;"></h3>
 					</div>
 					
@@ -355,7 +830,6 @@
 					<div class="col-md-12">
 						<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-globalidv.png" width="80px;">Global IDV</h3>
 						<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</p>
-
 					</div>
 
 						<div class="col-md-2 center">
@@ -391,714 +865,137 @@
 
 
 						<div class="line"></div>
-				 
-				</div>
-			<!-- BUTTON 1 END -->
-		</div>
 
 
-<div class="container clearfix topmargin-lg">
-
-					<div id="side-navigation">
-
-						<div class="col_one_third nobottommargin">
-							<div class="ScrollStyle">
-							<ul class="sidenav">
-								<li><a href="#snav-content1"><img src="../../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Afghanistan<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content2"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Armenia<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content3"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Bahrain<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content4"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Bangladesh<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Bhutan<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Brunei Darussalam<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Cambodia<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;China<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Hong Kong<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;India<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Indonesia<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Israel<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Iran<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Iraq<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#"><img src="../images/flags/smflag.png" width="30px;">&nbsp;&nbsp;Japan<i class="icon-chevron-right"></i></a></li>
-
-							</ul>
-							</div>
+						<div class="col-md-12">
+							<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidocr.png" width="80px;">Document ID OCR</h3>
+							<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically verify ID documentation for quality and formating in real-time, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</p>
 						</div>
 
-						<div class="col_two_third col_last nobottommargin">
-
-							<div id="snav-content1">
-								
-									<h3 style="float:left;"><img src="../images/flags/smflag.png" width="80px;">Afghanistan</h3>
-
-								
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="60px;"><br>
-									<b>ID Verification </b><em>86.67% of population over 17 years of age.</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">FIRST NAME<br>LAST NAME<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>ADDRESS<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>GENDER<Br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL<BR> ID<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-
-								<div class="line"></div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/geocheck.jpg" width="40px;"><br>
-									<b>Geo Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Validate the authenticity of your customers coordinates through our geo checker to provide you with ISP details, IP reputation, IP distance and proxy detection.</h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/bincheck.jpg" width="40px;"><br>
-									<b>Bin Check</b> <em>(Global)</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We will validate the initial six digits of the credit, debit or a prepaid card of your customers, drilled down to bank name, bank country, card level and card type.</span></h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/breachedemail.jpg" width="40px;"><br>
-									<b>Breached Email Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">At sign up and any account updates we check emails provided are not at a high risk of exposure and have not been compromised through any data breach.</h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="40px;"><br>
-									<b>Physical Address</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We quickly and accurately determine your customers address. Validating them at the median level postal address validation to the point of entry.</span></h3>
-								</div>
-
-								<!-- LINE BREAK -->
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phoneidcheck.jpg" width="40px;"><br>
-									<b>Phone ID Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our phone validator we’ll check the number, the phone type and its carrier. In conjunction with the phone’s accurate geo location and have accurate contact details.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/compliancecheck.jpg" width="40px;"><br>
-									<b>Compliance Watchlist</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Screen your customers on global sanctions databases including the FATF, OFAC, AML/CTF, PEP, RCA and SIP in real-time to reduce your exposure and risk.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/email-verify.jpg" width="40px;"><br>
-									<b>Email Verification</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review email accounts in detail from type of email address, age of account, customer profile, domain intelligence and the emails reputation standing.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phone4pin.jpg" width="40px;"><br>
-									<b>Phone 4-Pin</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Enable voice and SMS two-factor authentication to ensure you have a high degree of security on your transactions, resulting in a reduction in chargebacks.</span></h3>
-								</div>
-
-								<div class="line"></div>
-								
-								<!-- LINE BREAK -->
-
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-ocr.jpg" width="60px;"><br>
-									<b>Doc ID OCR</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically Verify ID documentation for quality and formating, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY PASSPORT<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY VISA<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-
-
-									<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-									<img src="../images/icon-checkmarkblue.png" width="20px;"> = At least 1 version of the document with MRZ Verified.<br><br>
-									</h3>
-
-								
-								<!-- LINE BREAK -->
-
-								<div class="line"></div>
-								
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-manual.jpg" width="40px;"><br>
-									<b>Doc ID Manual</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back-office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-live.jpg" width="40px;"><br>
-									<b>Doc ID LIVE</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and Validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/deviceid.jpg" width="40px;"><br>
-									<b>Device ID</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Bring further awareness of fraudsters through device hardware fingerprint, java based, and granular device details. Add device detail reputation data for extra authenticity of user.</span></h3>
-								</div>
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
 							</div>
-
-							
-
-
-							<!-- COUNTRY BREAK -->
-
-
-								<div id="snav-content2">
-								
-									<h3 style="float:left;"><img src="../images/flags/smflag.png" width="80px;">Armenia</h3>
-
-								
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="60px;"><br>
-									<b>ID Verification </b><em>35% Hit Rate.</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">FIRST NAME<br>LAST NAME<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>ADDRESS<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>GENDER<Br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL<BR> ID<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-
-								<div class="line"></div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/geocheck.jpg" width="40px;"><br>
-									<b>Geo Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Validate the authenticity of your customers coordinates through our geo checker to provide you with ISP details, IP reputation, IP distance and proxy detection.</h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/bincheck.jpg" width="40px;"><br>
-									<b>Bin Check</b> <em>(Global)</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We will validate the initial six digits of the credit, debit or a prepaid card of your customers, drilled down to bank name, bank country, card level and card type.</span></h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/breachedemail.jpg" width="40px;"><br>
-									<b>Breached Email Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">At sign up and any account updates we check emails provided are not at a high risk of exposure and have not been compromised through any data breach.</h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="40px;"><br>
-									<b>Physical Address</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We quickly and accurately determine your customers address. Validating them at the median level postal address validation to the point of entry.</span></h3>
-								</div>
-
-								<!-- LINE BREAK -->
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phoneidcheck.jpg" width="40px;"><br>
-									<b>Phone ID Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our phone validator we’ll check the number, the phone type and its carrier. In conjunction with the phone’s accurate geo location and have accurate contact details.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/compliancecheck.jpg" width="40px;"><br>
-									<b>Compliance Watchlist</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Screen your customers on global sanctions databases including the FATF, OFAC, AML/CTF, PEP, RCA and SIP in real-time to reduce your exposure and risk.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/email-verify.jpg" width="40px;"><br>
-									<b>Email Verification</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review email accounts in detail from type of email address, age of account, customer profile, domain intelligence and the emails reputation standing.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phone4pin.jpg" width="40px;"><br>
-									<b>Phone 4-Pin</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Enable voice and SMS two-factor authentication to ensure you have a high degree of security on your transactions, resulting in a reduction in chargebacks.</span></h3>
-								</div>
-
-								<div class="line"></div>
-								
-								<!-- LINE BREAK -->
-
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-ocr.jpg" width="60px;"><br>
-									<b>Doc ID OCR</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically Verify ID documentation for quality and formating, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY PASSPORT<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY VISA<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-
-									<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-									<img src="../images/icon-checkmarkblue.png" width="20px;"> = At least 1 version of the document with MRZ Verified.<br><br>
-									</h3>
-
-								
-								<!-- LINE BREAK -->
-
-								<div class="line"></div>
-								
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-manual.jpg" width="40px;"><br>
-									<b>Doc ID Manual</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back-office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-live.jpg" width="40px;"><br>
-									<b>Doc ID LIVE</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and Validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/deviceid.jpg" width="40px;"><br>
-									<b>Device ID</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Bring further awareness of fraudsters through device hardware fingerprint, java based, and granular device details. Add device detail reputation data for extra authenticity of user.</span></h3>
-								</div>
-							</div>
-
-
-
-							<!-- COUNTRY BREAK -->
-
-
-
-
-
-							<div id="snav-content3">
-								
-									<h3 style="float:left;"><img src="../images/flags/smflag.png" width="80px;">Bahrain</h3>
-
-								
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="60px;"><br>
-									<b>ID Verification </b><em>3.05% of Population Over 17 Years of Age.</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">FIRST NAME<br>LAST NAME<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>ADDRESS<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>GENDER<Br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL<BR> ID<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-
-								<div class="line"></div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/geocheck.jpg" width="40px;"><br>
-									<b>Geo Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Validate the authenticity of your customers coordinates through our geo checker to provide you with ISP details, IP reputation, IP distance and proxy detection.</h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/bincheck.jpg" width="40px;"><br>
-									<b>Bin Check</b> <em>(Global)</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We will validate the initial six digits of the credit, debit or a prepaid card of your customers, drilled down to bank name, bank country, card level and card type.</span></h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/breachedemail.jpg" width="40px;"><br>
-									<b>Breached Email Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">At sign up and any account updates we check emails provided are not at a high risk of exposure and have not been compromised through any data breach.</h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="40px;"><br>
-									<b>Physical Address</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We quickly and accurately determine your customers address. Validating them at the median level postal address validation to the point of entry.</span></h3>
-								</div>
-
-								<!-- LINE BREAK -->
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phoneidcheck.jpg" width="40px;"><br>
-									<b>Phone ID Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our phone validator we’ll check the number, the phone type and its carrier. In conjunction with the phone’s accurate geo location and have accurate contact details.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/compliancecheck.jpg" width="40px;"><br>
-									<b>Compliance Watchlist</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Screen your customers on global sanctions databases including the FATF, OFAC, AML/CTF, PEP, RCA and SIP in real-time to reduce your exposure and risk.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/email-verify.jpg" width="40px;"><br>
-									<b>Email Verification</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review email accounts in detail from type of email address, age of account, customer profile, domain intelligence and the emails reputation standing.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phone4pin.jpg" width="40px;"><br>
-									<b>Phone 4-Pin</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Enable voice and SMS two-factor authentication to ensure you have a high degree of security on your transactions, resulting in a reduction in chargebacks.</span></h3>
-								</div>
-
-								<div class="line"></div>
-								
-								<!-- LINE BREAK -->
-
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-ocr.jpg" width="60px;"><br>
-									<b>Doc ID OCR</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically Verify ID documentation for quality and formating, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
-										<img src="../images/icon-checkmarklineblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY PASSPORT<br><br>
-										<img src="../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY VISA<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-
-									<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-									<img src="../images/icon-checkmarklineblue.png" width="20px;"> = At least 1 version of the document with MRZ Read.<br><br>
-									<img src="../images/icon-checkmarkblue.png" width="20px;"> = At least 1 version of the document with MRZ Verified.<br><br>
-									</h3>
-
-								
-								<!-- LINE BREAK -->
-
-								<div class="line"></div>
-								
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-manual.jpg" width="40px;"><br>
-									<b>Doc ID Manual</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back-office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-live.jpg" width="40px;"><br>
-									<b>Doc ID LIVE</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and Validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/deviceid.jpg" width="40px;"><br>
-									<b>Device ID</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Bring further awareness of fraudsters through device hardware fingerprint, java based, and granular device details. Add device detail reputation data for extra authenticity of user.</span></h3>
-								</div>
-							</div>
-
-
-
-
-
-							
-
-								<!-- COUNTRY BREAK -->
-
-
-
-
-
-							<div id="snav-content4">
-								
-									<h3 style="float:left;"><img src="../images/flags/smflag.png" width="80px;">Bangladesh</h3>
-
-								
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="60px;"><br>
-									<b>ID Verification </b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Verifying your customers registered first and/or last name to address information, address type and length of residency. In conjunction with their date of birth, phone details and national ID.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">FIRST NAME<br>LAST NAME<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>ADDRESS<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DATE OF BIRTH<br><Br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">CUSTOMER <BR>GENDER<Br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PHONE ID ADVANCED<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">NATIONAL<BR> ID<br><br>
-										<img src="../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
 									
-								<div class="line"></div>
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
 
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/geocheck.jpg" width="40px;"><br>
-									<b>Geo Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Validate the authenticity of your customers coordinates through our geo checker to provide you with ISP details, IP reputation, IP distance and proxy detection.</h3>
-								</div>
 
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/bincheck.jpg" width="40px;"><br>
-									<b>Bin Check</b> <em>(Global)</em><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We will validate the initial six digits of the credit, debit or a prepaid card of your customers, drilled down to bank name, bank country, card level and card type.</span></h3>
-								</div>
+							<div class="col-md-4">
+								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+								<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+							</div>
 
+							<div class="col-md-4">
+								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+								<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+							</div>
 
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/breachedemail.jpg" width="40px;"><br>
-									<b>Breached Email Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">At sign up and any account updates we check emails provided are not at a high risk of exposure and have not been compromised through any data breach.</h3>
-								</div>
-
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/physicaladdress.jpg" width="40px;"><br>
-									<b>Physical Address</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">We quickly and accurately determine your customers address. Validating them at the median level postal address validation to the point of entry.</span></h3>
-								</div>
-
-								<!-- LINE BREAK -->
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/phoneidcheck.jpg" width="40px;"><br>
-									<b>Phone ID Check</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our phone validator we’ll check the number, the phone type and its carrier. In conjunction with the phone’s accurate geo location and have accurate contact details.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/compliancecheck.jpg" width="40px;"><br>
-									<b>Compliance Watchlist</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Screen your customers on global sanctions databases including the FATF, OFAC, AML/CTF, PEP, RCA and SIP in real-time to reduce your exposure and risk.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/email-verify.jpg" width="40px;"><br>
-									<b>Email Verification</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review email accounts in detail from type of email address, age of account, customer profile, domain intelligence and the emails reputation standing.</span></h3>
-								</div>
-
-								<div class="col-md-3" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/phone4pin.jpg" width="40px;"><br>
-									<b>Phone 4-Pin</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Enable voice and SMS two-factor authentication to ensure you have a high degree of security on your transactions, resulting in a reduction in chargebacks.</span></h3>
-								</div>
-
-								<div class="line"></div>
-								
-								<!-- LINE BREAK -->
-
-								<div class="col-md-12">
-								<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../images/services/kyc/dataicons/doc-id-ocr.jpg" width="60px;"><br>
-									<b>Doc ID OCR</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Automatically Verify ID documentation for quality and formating, while also reviewing documentation for scrapped data. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
-										<img src="../../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
-										<img src="../../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY PASSPORT<br><br>
-										<img src="../../images/icon-checkmarkblue.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
-										<img src="../../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
-										<img src="../../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-									<div class="col-md-2 bottommargin-sm">
-										<h3 style="font-size:15px; line-height:1.2; font-weight:300;">COUNTRY VISA<br><br>
-										<img src="../../images/icon-xgrey.png" width="40px;"></h3>
-									</div>
-
-									<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-									<img src="../../images/icon-checkmarkblue.png" width="20px;"> = At least 1 version of the document with MRZ Verified.<br><br>
-									</h3>
-
-								
-								<!-- LINE BREAK -->
-
-								<div class="line"></div>
-								
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/doc-id-manual.jpg" width="40px;"><br>
-									<b>Doc ID Manual</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back-office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/doc-id-live.jpg" width="40px;"><br>
-									<b>Doc ID LIVE</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and Validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</span></h3>
-								</div>
-
-								<div class="col-md-4" data-animate="fadeIn" data-delay="100">
-									<h3 style="font-size:15px; line-height:1.2; font-weight:300;"><img src="../../images/services/kyc/dataicons/deviceid.jpg" width="40px;"><br>
-									<b>Device ID</b><br><br>
-									<span style="color:#6d6e71; font-size: 15px; font-weight: 300;">Bring further awareness of fraudsters through device hardware fingerprint, java based, and granular device details. Add device detail reputation data for extra authenticity of user.</span></h3>
-								</div>
+							<div class="col-md-4">
+								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+								<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
 							</div>
 
 
 
-							
+					<div class="line"></div>
 
+
+						<div class="col-md-12">
+							<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidvideo.png" width="80px;">Document ID Video</h3>
+							<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Review and validate ID documentation in real-time through our interactive tool consisting of a live webID agent to verify customers instantly over live chat with their documents.</p>
 						</div>
 
-					</div>
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">DRIVERS LICENCE<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">IDENTITY CARD<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">PASSPORT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">RESIDENCE PERMIT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">TRAVEL DOCUMENT<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
+									
+							<div class="col-md-2 center">
+								<h3 style="font-size:15px; line-height:1.2; font-weight:300;">VISA<br><br>
+								<img src="datasources/xmark-greysolid.png" width="40px;"></h3>
+							</div>
 
-				</div>
+
+							<div class="col-md-6">
+								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+								<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document ID live chat verification with a webID agent.</h3>
+							</div>
+
+							<div class="col-md-6">
+								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
+								<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Bafin compliant Document ID live chat verification with a webID agent.</h3>
+							</div>
 
 
-						
-
-					
+						<div class="line"></div>
 
 
+						<div class="col-md-12">
+							<h3 style="font-size:20px; line-height:1.2; font-weight:300; color:#58595b;"><img src="datasources/red-docidmanual.png" width="80px;">Document ID Manual</h3>
+							<p style="color:#6d6e71; font-size: 15px; font-weight: 300;">Through our back office verify government issued ID documents or utility bills for quality and formating, scrapped data, and reputation. Comes with easy upload facility and file management area.</p>
+						</div>
+
+
+		      </div>
+		    </div>
+		  </div>
+		 <!-- SECTION 3 END -->
+
+
+		</div>
+	</div>
 
 
 
 
 
 
-
-
-
-
-
-	
-
+		
 
 			
-
-
-	
-				
-
-				<div class="clearfix center" style="background-color:#00a8cb;">
-					<div class="col-md-12 center topmargin-sm">
-					<h3 style="color:#FFF; font-weight:300; line-height:1.2;"><img src="../../images/twitter.png" width="50px;" alt=""><b>Follow us <a href="https://twitter.com/fourstop" style="color:#FFF;" target="_blank"><u>@Fourstop</u></a></b> for alerts on industry related news and resources.</h3>
-					</div>
-				</div>
 			</section>
 
 	
