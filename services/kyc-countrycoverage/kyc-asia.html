@@ -46,38 +46,6 @@
 
 
 
-.ScrollStyle
-{
-    max-height: 353px;
-    overflow-y: scroll;
-}
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #f2f2f2;
-  color: #444;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #eaeff2;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
 
 
 
@@ -441,17 +409,17 @@
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+										<img src="datasources/bluesolid.png" width="20px;"> = Document with MRZ read.</h3>
 									</div>
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document with MRZ verified.</h3>
 									</div>
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Document with MRZ and VIZ consistency verified.</h3>
 									</div>
 
 
@@ -672,17 +640,17 @@
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+										<img src="datasources/bluesolid.png" width="20px;"> = Document with MRZ read.</h3>
 									</div>
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+										<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document with MRZ verified.</h3>
 									</div>
 
 									<div class="col-md-4">
 										<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
+										<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Document with MRZ and VIZ consistency verified.</h3>
 									</div>
 
 
@@ -905,17 +873,17 @@
 
 							<div class="col-md-4">
 								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-								<img src="datasources/bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ read.</h3>
+								<img src="datasources/bluesolid.png" width="20px;"> = Document with MRZ read.</h3>
 							</div>
 
 							<div class="col-md-4">
 								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-								<img src="datasources/checkmark-bluesolid.png" width="20px;"> = At least 1 version of the document with MRZ verified.</h3>
+								<img src="datasources/checkmark-bluesolid.png" width="20px;"> = Document with MRZ verified.</h3>
 							</div>
 
 							<div class="col-md-4">
 								<h3 style="font-size:13px; line-height:1.2; font-weight:300;">
-								<img src="datasources/checkmark-blueoutline.png" width="20px;"> = At least 1 version of the document with MRZ and VIZ consistency verified.</h3>
+								<img src="datasources/checkmark-blueoutline.png" width="20px;"> = Document with MRZ and VIZ consistency verified.</h3>
 							</div>
 
 
@@ -1154,22 +1122,7 @@
 	});
 </script>
 
-<script>
-	var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
    
 
 
