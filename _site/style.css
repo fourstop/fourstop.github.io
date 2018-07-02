@@ -2844,7 +2844,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-caption h2 {
 	top: 80%;
-	font-size: 50px;
+	font-size: 60px;
 	letter-spacing: 2px;
 	font-weight: 600;
 	line-height: 1.2;
@@ -2873,9 +2873,17 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin-bottom: 30px;
 }
 
+.slider-caption h5 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
 .slider-caption p {
 	margin-bottom: 10px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .slider-caption.slider-caption-right {
