@@ -1153,7 +1153,8 @@
 	#slider:not(.swiper_wrapper) .slider-caption,
 	.nivo-caption,
 	.flex-caption,
-	.slider-caption p,
+	.slider-caption p { font-size: 10px; }
+
 	.slider-caption .button,
 	.camera_caption,
 	.ei-title,

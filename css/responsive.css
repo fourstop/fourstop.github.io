@@ -1153,8 +1153,7 @@
 	#slider:not(.swiper_wrapper) .slider-caption,
 	.nivo-caption,
 	.flex-caption,
-	.slider-caption p { font-size: 10px; }
-
+	.slider-caption p,
 	.slider-caption .button,
 	.camera_caption,
 	.ei-title,
@@ -1484,7 +1483,7 @@
 	#top-search form input { padding-right: 60px; }
 
 	.swiper_wrapper:not(.force-full-screen),
-	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 500px !important; }
+	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 700px !important; }
 
 	.swiper_wrapper .slider-caption h2 { font-size: 30px; }
 
