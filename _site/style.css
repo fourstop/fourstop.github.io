@@ -2709,7 +2709,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	height:100%;
 	margin: 0;
 	background: url('images/pattern2.png') repeat;
-	background-color: rgba(0,0,0,0.7);
 }
 
 .swiper_wrapper .swiper-slide {
@@ -2735,17 +2734,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	left: 0;
 }
 
-.swiper-slide .dark {
-	position: fixed;
-     	display: none; /* Hidden by default */
-	    width: 100%; /* Full width (cover the whole page) */
-	    height: 100%; /* Full height (cover the whole page) */
-	    top: 0; 
-	    left: 0;
-	    right: 0;
-	    bottom: 0;
-	    background-color: rgba(0,0,0,0.7);
-}
 
 #slider .container {
 	position: relative;
