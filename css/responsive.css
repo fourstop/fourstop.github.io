@@ -1485,9 +1485,7 @@
 	.swiper_wrapper:not(.force-full-screen),
 	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide { height: 500px !important; }
 
-	.swiper_wrapper .slider-caption h2 { font-size: 60px; }
-
-	.swiper_wrapper .slider-caption p { font-size: 10px; }
+	.swiper_wrapper .slider-caption h2 { font-size: 30px; }
 
 	.ei-slider { height: 250px; }
 
@@ -1643,7 +1641,7 @@
 	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide,
 	.ei-slider { height: 375px !important; }
 
-	.swiper_wrapper .slider-caption h2 { font-size: 22px; }
+	.swiper_wrapper .slider-caption h2 { font-size: 40px; }
 
 	#header.transparent-header.floating-header .container {
 		width: 310px;
