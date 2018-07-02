@@ -1639,9 +1639,34 @@
 
 	.swiper_wrapper:not(.force-full-screen),
 	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide,
-	.ei-slider { height: 375px !important; }
+	.ei-slider { height: 375px !important;}
 
-	.swiper_wrapper .slider-caption h2 { font-size: 40px; }
+
+	
+
+	.swiper_wrapper .slider-caption h2 { font-size: 22px; }
+	.swiper_wrapper .slider-caption p { font-size: 12px; }
+
+	.swiper_wrapper .slider-caption .button { 
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		outline: none;
+		white-space: nowrap;
+		margin: 5px;
+		padding: 0 22px;
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		background-color: #d2232a;
+		color: #FFF;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border: none;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	}
+
 
 	#header.transparent-header.floating-header .container {
 		width: 310px;
@@ -1715,6 +1740,8 @@
 	}
 
 	.parallax .countdown-amount { font-size: 20px; }
+
+
 
 	.countdown-large .countdown-section {
 		display: block;
