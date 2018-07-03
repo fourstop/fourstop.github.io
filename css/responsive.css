@@ -1645,6 +1645,10 @@
 	
 
 	.swiper_wrapper .slider-caption h2 { font-size: 22px; }
+	.swiper_wrapper .slider-caption h4 { 
+		font-size: 22px; 
+		margin-bottom: 15px;
+	}
 	.swiper_wrapper .slider-caption p { font-size: 13px; }
 
 	.swiper_wrapper .slider-caption .button { 
