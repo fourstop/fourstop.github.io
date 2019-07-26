@@ -6509,6 +6509,10 @@ body:not(.device-touch) .button {
 
 .button-blue2 { background-color: #309ca8; }
 
+
+.button-darkred { background-color: #a71b1d; }
+
+
 .button-light {
 	background-color: #EEE;
 	color: #333;
