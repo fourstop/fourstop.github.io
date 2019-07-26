@@ -39,10 +39,11 @@
 
 	.heading-block h3 { font-size: 45px;}
 
-	h1 {line-height: 1.2}
+	h1 {font-size: 38px;
+		line-height: 0.8;}
 	h1 > span:not(.nocolor) { 
 		letter-spacing: 0px;
-		font-size:19px; 
+		font-size:19px;
 	}
 
 	.heading-block h6 { font-size: 37px; }
@@ -272,7 +273,8 @@
 @media (max-width: 991px) {
 
 
-	h1 { font-size: 36px; line-height: 1.2;}
+	h1 { font-size: 38px; 
+		line-height: 0.8;}
 	h1 > span:not(.nocolor) { 
 		letter-spacing: 0px; 
 		font-size: 22px;
