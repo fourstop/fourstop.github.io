@@ -37,10 +37,13 @@
 
 	h3 { font-size: 37px;}
 
+	.feature-box h3 { font-size: 15px;}
+	.feature-box p { font-size: 14px;}
+
 	.heading-block h3 { font-size: 45px;}
 
 	h1 {font-size: 38px;
-		line-height: 0.8;}
+		line-height: 1.2;}
 	h1 > span:not(.nocolor) { 
 		letter-spacing: 0px;
 		font-size:19px;
@@ -273,14 +276,14 @@
 @media (max-width: 991px) {
 
 
-	h1 { font-size: 38px; 
+	h1 { font-size: 34px; 
 		line-height: 0.8;}
 	h1 > span:not(.nocolor) { 
 		letter-spacing: 0px; 
 		font-size: 22px;
 	}
 
-	h2 { font-size: 25px; }
+	h2 { font-size: 23px; }
 
 
 	h4 { font-size: 15px; line-height: 1.3; }
