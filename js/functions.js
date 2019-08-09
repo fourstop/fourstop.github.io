@@ -437,8 +437,9 @@ var SEMICOLON = SEMICOLON || {};
 						},
 						gallery: {
 							enabled: true,
-							navigateByImgClick: true,
+							navigateByImgClick: false,
 							preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+
 						}
 					});
 				});
