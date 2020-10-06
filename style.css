@@ -6556,6 +6556,12 @@ body:not(.device-touch) .button {
 	
 }
 
+.button.button-blue2:hover {
+	background-color: #28838c;
+	color: #FFF;
+	
+}
+
 .button.button-dark:hover { background-color: #b2202a; }
 
 .button.button-mini {
