@@ -10,6 +10,8 @@
 		height: auto !important;
 	}
 
+	.slider-caption h3 {font-size: 30px}
+
 	.promo h3 { font-size: 20px; }
 
 	.promo > span,
@@ -20,12 +22,44 @@
 	.promo-uppercase > span,
 	.promo-uppercase > .container > span { font-size: 14px; }
 
+	.swiper_wrapper .slider-caption .body-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: -1;
+	pointer-events: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: opacity .3s ease;
+	-o-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+}
+
 }
 
 /* ----------------------------------------------------------------
 	IPAD HORIZONTAL
 	-----------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	.swiper_wrapper .slider-caption .body-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: -1;
+	pointer-events: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: opacity .3s ease;
+	-o-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+}
 
 	h4 { font-size: 18px; }
 	h4 > span:not(.nocolor) { 
@@ -275,6 +309,7 @@
 	-----------------------------------------------------------------*/
 @media (max-width: 991px) {
 
+.slider-caption h3 {font-size: 30px}
 
 	h1 { font-size: 34px; 
 		line-height: 0.8;}
@@ -295,7 +330,7 @@
 		font-size: 14px;
 	}
 
-	h3 { font-size: 35px; }
+	h3 { font-size: 30px; }
 	.heading-block h3 { font-size: 45px;}
 
 	.heading-block h6 { font-size: 33px; }
@@ -1166,6 +1201,8 @@
 
 @media (max-width: 767px) {
 
+	.slider-caption h3 {font-size: 30px}
+
 	body { padding: 0 !important; }
 
 	#wrapper { width: 100% !important; }
@@ -1699,19 +1736,21 @@
 	#top-account a.btn i:last-child { display: none; }
 
 	.swiper_wrapper:not(.force-full-screen),
-	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide,
+	.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide, 
 	.swiper_wrapper
 	.ei-slider { height: 375px !important;}
 
 
 		
 
-	.swiper_wrapper .slider-caption h2 { font-size: 22px; }
+	.swiper_wrapper .slider-caption h2 { font-size: 30px; }
 	.swiper_wrapper .slider-caption h4 { 
 		font-size: 22px; 
 		margin-bottom: 15px;
 	}
-	.swiper_wrapper .slider-caption p { font-size: 13px; }
+
+	.swiper_wrapper .slider-caption h3 { font-size: 15px; line-height:1.2}
+	.swiper_wrapper .slider-caption p { font-size: 15px; line-height:1.1;}
 
 	.swiper_wrapper .slider-caption .button { 
 		display: inline-block;
@@ -1720,7 +1759,7 @@
 		outline: none;
 		white-space: nowrap;
 		margin: 5px;
-		padding: 0 22px;
+		padding: 0 15px;
 		font-size: 12px;
 		height: 30px;
 		line-height: 30px;
@@ -1733,6 +1772,13 @@
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	}
 
+
+.swiper_wrapper .slider-caption {
+	padding-left:40px;
+	padding-right:40px;
+}
+
+ h2 {font-size: 28px;}
 
 	#header.transparent-header.floating-header .container {
 		width: 310px;
